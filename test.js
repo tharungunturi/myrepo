@@ -5,4 +5,9 @@ describe('A big test', function () {
         const test = 'Hello';
         expect(test).to.eq('Hello');
     });
+
+    it('Testing a number', function () {
+        const test = 1;
+        expect(test).to.eq(1);
+    });
 });
